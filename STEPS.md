@@ -32,3 +32,22 @@ running tests:
 ```
 python3 -m pytest tests/
 ```
+
+add todo
+
+```
+(venv) $ python3 -m rptodo add Get some milk -p 1
+to-do: "Get some milk." was added with priority: 1
+
+(venv) $ python3 -m rptodo add Clean the house --priority 3
+to-do: "Clean the house." was added with priority: 3
+
+(venv) $ python3 -m rptodo add Wash the car
+to-do: "Wash the car." was added with priority: 2
+
+(venv) $ python3 -m rptodo add Go for a walk -p 5
+Usage: rptodo add [OPTIONS] DESCRIPTION...
+Try 'rptodo add --help' for help.
+
+Error: Invalid value for '--priority' / '-p': 5 is not in the valid range...
+```
