@@ -26,3 +26,9 @@ python3 -m igregor_todo --help
 python3 -m igregor_todo -v
 python3 -m igregor_todo
 ```
+
+running tests:
+
+```
+python3 -m pytest tests/
+```
