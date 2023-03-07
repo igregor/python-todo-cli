@@ -51,3 +51,15 @@ Try 'rptodo add --help' for help.
 
 Error: Invalid value for '--priority' / '-p': 5 is not in the valid range...
 ```
+
+list
+
+```
+python3 -m igregor_todo list
+```
+
+complete
+
+```
+python3 -m igregor_todo complete 1
+```
